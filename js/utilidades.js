@@ -63,21 +63,11 @@ function formatearFecha(segundosUnix){
   return mes + '-' + dia + '-' + anio + ' ' + String(horas).padStart(2, '0') + ':' + minutos + ' ' + jornada;
 }
 
-function esCursoCAI(curso){
-  return [curso.shortname, curso.idnumber].some(texto => {
-    const codigo = (texto || '').split('/')[3] || '';
-    return /^CAI/i.test(codigo.trim());
-  });
-}
-
-const NOTA_BAJA_HASTA = esCursoCAI(GESTOR.curso) ? 3.5 : 3;
-const NOTA_MEDIA_HASTA = 4;
-
 function claseColorREA(valor, completo){
   if(!completo) return '';
   if(valor === null || valor === undefined) return '';
-  if(valor < NOTA_BAJA_HASTA) return 'destacado-b';
-  if(valor < NOTA_MEDIA_HASTA) return 'destacado-m';
+  if(valor < 3) return 'destacado-b';
+  if(valor < 4) return 'destacado-m';
   return 'destacado';
 }
 
