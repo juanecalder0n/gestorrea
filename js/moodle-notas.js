@@ -37,6 +37,9 @@ async function obtenerPromediosPorREA(idCurso, idUsuario, actividadesPorREA){
     const notasPorActividad = {};
     elementos.forEach(elemento => {
       if(elemento.itemtype === 'mod'){
+        const rango = (elemento.rangeformatted || '').replace(/&ndash;|–|-|\s/g, '');
+        if(rango === '') return;
+
         const clave = elemento.itemmodule + ':' + elemento.iteminstance;
         notasPorActividad[clave] = (elemento.graderaw !== null && elemento.graderaw !== undefined) ? parseFloat(elemento.graderaw) : null;
       }
