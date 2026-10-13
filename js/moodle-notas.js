@@ -43,7 +43,9 @@ async function obtenerPromediosPorREA(idCurso, idUsuario, actividadesPorREA){
     });
 
     for(let n = 1; n <= 3; n++){
-      const actividades = actividadesPorREA[n] || [];
+      const actividades = (actividadesPorREA[n] || []).filter(actividad =>
+        (actividad.modname + ':' + actividad.instance) in notasPorActividad
+      );
       if(actividades.length === 0) continue;
 
       let completo = true;
