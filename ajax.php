@@ -42,7 +42,7 @@ if (array_key_exists('courseids', $parametros)) {
 foreach (['assignid', 'assignmentid'] as $clave) {
     if (array_key_exists($clave, $parametros)
             && !$DB->record_exists('assign', ['id' => (int) $parametros[$clave], 'course' => $curso->id])) {
-        local_gestorrea_responder_error('La actividad no pertenece a este curso.');
+        local_gestorrea_responder_error('La actividad no pertenece a este campo de aprendizaje.');
     }
 }
 
