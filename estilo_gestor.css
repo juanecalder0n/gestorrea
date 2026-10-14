@@ -168,7 +168,12 @@
     img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
   }
 
-  .rea { flex: 1; border-left: 1px solid #1d511e; }
+  .rea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #1d511e;
+  }
 
   .rea-encabezado {
     padding: 10px 0;
@@ -183,6 +188,10 @@
 
   .rea-celda {
     position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 18px 0;
     background: #fff;
     text-align: center;
