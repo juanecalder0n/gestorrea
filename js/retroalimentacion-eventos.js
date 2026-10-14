@@ -134,7 +134,7 @@ function habilitarInteraccionREA(tarjeta, idUsuario, tareasRetroREA, promediosRe
             cargandoRea.delete(n);
           });
       }else{
-        areaTexto.value = almacenRetro[clave] || '(no existe la actividad "Retroalimentación REA ' + n + '" en este curso)';
+        areaTexto.value = almacenRetro[clave] || '(no existe la actividad "Retroalimentación REA ' + n + '" en este campo de aprendizaje)';
         actualizarMetaRetro();
         autoExpandirAreaTexto(areaTexto);
       }
@@ -157,7 +157,7 @@ function habilitarInteraccionREA(tarjeta, idUsuario, tareasRetroREA, promediosRe
           const texto = areaTexto.value.trim();
 
           if(!idTarea){
-            alert('No existe la actividad "Retroalimentación REA ' + n + '" en este curso.');
+            alert('No existe la actividad "Retroalimentación REA ' + n + '" en este campo de aprendizaje.');
             return;
           }
 
