@@ -62,6 +62,5 @@ El acceso se controla con `local/gestorrea:view` ("Usar el gestor de retroalimen
 - Asume que las notas están en escala de 0 a 5.
 - El promedio de un REA incompleto es provisional.
 - El borrador de la retroalimentación solo se conserva mientras la pantalla permanece abierta.
-- No tiene pruebas automáticas y está en estado beta.
 
 
