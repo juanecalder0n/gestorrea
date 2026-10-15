@@ -14,8 +14,9 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 
 ### Niveles de logro
 
-| Nivel | Promedio | Color |
+| Nivel | Promedio | Estado |
 | :--- | :---: | :--- |
-| bajo | 0-2,9 | `#FDE2E2` Rojo |
-| medio | 3,0 - 3,9 | `#FBF1B0` Amarillo |
-| bueno | 4,0 - 5,0 | `#C9FBB0` Verde |
+| bajo | 0-2,9 | $\color{red}{\textsf{Bajo / Alerta}}$ |
+| medio | 3,0 - 3,9 | $\color{yellow}{\textsf{Medio / Advertencia}}$ |
+| bueno | 4,0 - 5,0 | $\color{green}{\textsf{Bueno / Excelente}}$ |
+
