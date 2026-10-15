@@ -29,3 +29,7 @@ El promedio de cada REA se calcula con las tareas, los cuestionarios y los foros
 - Usuarios con permiso "View:gestorrea:view" en el campo de aprendizaje.
 
 ## Estructura que debe tener el campo de aprendizaje
+
+Los campos de aprendizaje deben contar con:
+- Secciones llamadas "REA 1", "REA 2" y "REA 3", con las actividades calificadas de cada REA.
+- 
