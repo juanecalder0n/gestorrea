@@ -20,4 +20,7 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 | medio | 3,0 - 3,9 | 🟡 |
 | bueno | 4,0 - 5,0 | 🟢 |
 
+El promedio de cada REA se calcula con las tareas, los cuestionarios y los foros calificados de ese REA. Las actividades con tipo de calificacion "Ninguna" y las actividades "Retroalimentacion REA" no cuentan.
+
+## Requisitos
 
