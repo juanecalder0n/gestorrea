@@ -42,3 +42,5 @@ Los campos de aprendizaje deben contar con:
 2. En Moodle, entre como administrador a Administración del sitio > Complementos > Instalar complementos.
 3. Cargue el ZIP, valide e instale.
 4. En caso de que el plugin no aprezca entonces purgue los cachés para actualizar la base de datos de Moodle.
+
+## Uso
