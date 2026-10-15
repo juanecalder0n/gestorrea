@@ -14,10 +14,10 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 
 ### Niveles de logro
 
-| Nivel | Promedio | Estado |
+| Nivel | Promedio | Color |
 | :--- | :---: | :---: |
-| bajo | 0-2,9 | 🔴 Bajo |
-| medio | 3,0 - 3,9 | 🟡 Medio |
-| bueno | 4,0 - 5,0 | 🟢 Bueno |
+| bajo | 0-2,9 | 🔴 |
+| medio | 3,0 - 3,9 | 🟡 |
+| bueno | 4,0 - 5,0 | 🟢 |
 
 
