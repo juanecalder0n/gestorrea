@@ -26,7 +26,42 @@ El promedio de cada REA se calcula con las tareas, los cuestionarios y los foros
 - Navegador reciente (Chrome, Edge, Firefox o Safari)
 - Usuario con permisos "View/gestorrea:view" en el campo de aprendizaje.
 
+## Estructura que debe tener el campo de aprendizaje
+
+Los campos de aprendizaje deben contar con:
+- Secciones llamadas `REA 1`, `REA 2` y `REA 3`, con las actividades calificadas de cada REA.
+- Una tarea por REA llamada `Retroalimentación REA 1`, `Retroalimentación REA 2` y `Retroalimentación REA 3`.
+- Actividades (tareas, cuestionarios y foros) con tipo de calificación **Puntuación**. Las que tienen tipo de calificación "Ninguna" no se tienen en cuenta en el promedio.
+- Notas registradas en la escala de 0 a 5. El plug-in usa el valor de la nota tal como está en Moodle.
+
+## Instalación
+
+1. Descargue el ZIP de la ultima version desde la seccion de releases "Releases".
+2. En Moodle, entre como administrador a Administración del sitio > Complementos > Instalar complementos.
+3. Cargue el ZIP, valide e instale.
+4. En caso de que el plugin no aprezca entonces purgue las cachés.
 
 
+## Uso
 
-Es una extensión local de Moodle llamada Gestor de retroalimentación REA. Aparece en el menú del campo de aprendizaje y abre una pantalla con una tarjeta por cada creador de oportunidades matriculado. Cada tarjeta muestra su promedio en los REA 1, 2 y 3, con un color según su nivel de logro, y permite registrar la retroalimentación de cada REA.
+En el campo de aprendizaje, abra el menú **Más** y haga clic en **Gestor de retroalimentación REA**.
+
+## Permisos
+
+El acceso se controla con `local/gestorrea:view` ("Usar el gestor de retroalimentación REA"). Por defecto lo tienen los roles basados en Profesor y Profesor con permiso de edición. El estudiante no debe tenerlo.
+
+## Seguridad
+
+- Las solicitudes validan la sesión, el `sesskey` y el permiso en el campo.
+- Solo se permiten seis funciones de Moodle, definidas en una lista.
+- No se usa ningún token de Moodle.
+
+## Limitaciones conocidas
+
+- Soporta tres REA por campo de aprendizaje.
+- Asume que las notas están en escala de 0 a 5.
+- El promedio de un REA incompleto es provisional.
+- El borrador de la retroalimentación solo se conserva mientras la pantalla permanece abierta.
+- No tiene pruebas automáticas y está en estado beta.
+
+
