@@ -24,3 +24,6 @@ El promedio de cada REA se calcula con las tareas, los cuestionarios y los foros
 
 ## Requisitos
 
+- Moodle 4.2 o superior.
+- Navegador Web recientes (Chrome, Edge, Firefox o Safari).
+- Usuarios con permiso "View:gestorrea:view" en el campo de aprendizaje.
