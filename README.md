@@ -16,7 +16,6 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 
 | Nivel | Promedio | Color |
 | :--- | :---: | :--- |
-| bajo | 0-2,9 | ![#FDE2E2](https://placehold.co) `#FDE2E2` (Rojo) |
-| medio | 3,0 - 3,9 | ![#FBF1B0](https://placehold.co) `#FBF1B0` (Amarillo) |
-| bueno | 4,0 - 5,0 | ![#C9FBB0](https://placehold.co) `#C9FBB0` (Verde) |
-
+| bajo | 0-2,9 | `#FDE2E2` Rojo |
+| medio | 3,0 - 3,9 | `#FBF1B0` Amarillo |
+| bueno | 4,0 - 5,0 | `#C9FBB0` Verde |
