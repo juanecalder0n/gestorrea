@@ -16,3 +16,5 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 | Nivel | Promedio | Color |
 |---|---|---|
 | bajo | 0-2,9 | rojo |
+| medio | 3,0 - 3,9 | amarillo |
+| bueno | 4,0 - 5,0 | verde |
