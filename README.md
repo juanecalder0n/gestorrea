@@ -15,9 +15,8 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 ### Niveles de logro
 | Nivel | Promedio | Color |
 |---|---|---|
-| Bajo | De 0 a 2,9 | Rosado claro |
-|  |
+| Bajo | De 0 a 2,9 | Rojo |
+| Medio| De 3 a 3,9 | Amarillo |
+| Bueno | De 4 a 5 | Verde |
 
-
- 
 Es una extensión local de Moodle llamada Gestor de retroalimentación REA. Aparece en el menú del campo de aprendizaje y abre una pantalla con una tarjeta por cada creador de oportunidades matriculado. Cada tarjeta muestra su promedio en los REA 1, 2 y 3, con un color según su nivel de logro, y permite registrar la retroalimentación de cada REA.
