@@ -9,7 +9,13 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 - Muestra una tarjeta por cada creador de oportunidades matriculado, con su promedio en los REA 1, 2 y 3.
 - Clasifica el nivel de logro de cada REA en 3 niveles de color.
 - Permite registrar, editar y guardar la retroalimentación individual REA.
+- Permite buscar y organizar a los creadores de oportunidades.
 - No modifica las calificaciones.
+
+### Niveles de logro
+| Nivel | Promedio | Color |
+|---|---|---|
+| Bajo | De 0 a 2,9 | Rosado claro |
 
 
  
