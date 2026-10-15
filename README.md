@@ -12,3 +12,6 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 - Permite buscar y organizar a los creadores de oportunidades.
 - No modifica las calificaciones
 
+### Niveles de logro
+| Nivel | Promedio | Color |
+|---|---|---|
