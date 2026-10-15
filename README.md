@@ -15,3 +15,4 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 ### Niveles de logro
 | Nivel | Promedio | Color |
 |---|---|---|
+| bajo | 0-2,9 | rojo |
