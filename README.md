@@ -35,3 +35,10 @@ Los campos de aprendizaje deben contar con:
 - Una tarea por REA llamada "Retroalimentacion REA 1", "Retroalimentacion REA 2" y "Retroalimentacion REA 3".
 - Actividades (tareas, cuestionarios y foros) con tipo de calificacion **puntuacion**. Las que tienen tipo de califcacion "ninguna" no se tienen en cuenta en el promedio.
 - Notas registradas en la escala de 0 a 5. El plug-in usa el valor de la nota tal como esta en Moodle.
+
+## Instalacion
+
+1. Descargar el ZIP de la ultima version desde la pagina principal del repositorio o desde el apartado de "Releases".
+2. En Moodle, entre como administrador a Administración del sitio > Complementos > Instalar complementos.
+3. Cargue el ZIP, valide e instale.
+4. En caso de que el plugin no aprezca entonces purgue los cachés para actualizar la base de datos de Moodle.
