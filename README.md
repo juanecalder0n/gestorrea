@@ -34,3 +34,4 @@ Los campos de aprendizaje deben contar con:
 - Secciones llamadas "REA 1", "REA 2" y "REA 3", con las actividades calificadas de cada REA.
 - Una tarea por REA llamada "Retroalimentacion REA 1", "Retroalimentacion REA 2" y "Retroalimentacion REA 3".
 - Actividades (tareas, cuestionarios y foros) con tipo de calificacion **puntuacion**. Las que tienen tipo de califcacion "ninguna" no se tienen en cuenta en el promedio.
+- Notas registradas en la escala de 0 a 5. El plug-in usa el valor de la nota tal como esta en Moodle.
