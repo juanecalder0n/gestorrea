@@ -44,3 +44,5 @@ Los campos de aprendizaje deben contar con:
 4. En caso de que el plugin no no se encuentre disponible despues de la instalacion, entonces purgue los cachés para actualizar la base de datos de Moodle.
 
 ## Uso
+
+En el campo de aprendizaje, abra el menu **Mas** y haga clic en **Gestor de retroalimentacion REA**.
