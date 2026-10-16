@@ -48,3 +48,19 @@ Los campos de aprendizaje deben contar con:
 En el campo de aprendizaje, abra el menu **Mas** y haga clic en **Gestor de retroalimentacion REA**.
 
 ## Permisos
+
+
+Para los roles de curso, esta opcion debera activarse desde Administracion del sitio > Permisos > Definir roles > Teacher-CADI > Permitir “local/gestorrea:view” (Usar el gestor de retroalimentacion REA).
+El acceso se controla con `local/gestorrea:view` ("Usar el gestor de retroalimentación REA"). Por defecto lo tienen los roles basados en Profesor y Profesor con permiso de edicion. El estudiante no debe tenerlo.
+
+## Seguridad
+- Las solicitudes validan la sesion, el `sesskey` y el permiso en el campo.
+- Solo se permiten seis funciones de Moodle, definidas en una lista.
+- No se usa ningún token de Moodle.
+
+## Limitaciones conocidas
+
+- Soporta tres REA por campo de aprendizaje.
+- Asume que las notas están en escala de 0 a 5.
+- El borrador de la retroalimentación solo se conserva mientras la pantalla permanece abierta.
+
