@@ -10,7 +10,7 @@ Agrupa en una sola pantalla el desempeño de cada creador de oportunidades en ca
 - Clasifica el nivel de logro de cada REA en 3 niveles de color.
 - Permite registrar, editar y guardar la retroalimentacion individual REA.
 - Permite buscar y organizar a los creadores de oportunidades.
-- No modifica las calificaciones
+- No modifica las calificaciones.
 
 ### Niveles de logro
 
