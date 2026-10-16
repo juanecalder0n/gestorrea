@@ -47,4 +47,4 @@ Los campos de aprendizaje deben contar con:
 
 En el campo de aprendizaje, abra el menu **Mas** y haga clic en **Gestor de retroalimentacion REA**.
 
-##Permisos
+## Permisos
