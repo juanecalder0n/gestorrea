@@ -13,7 +13,7 @@ $PAGE->set_url(new moodle_url('/local/gestorrea/index.php', ['id' => $curso->id]
 $PAGE->set_pagelayout('incourse');
 $PAGE->set_title(get_string('pluginname', 'local_gestorrea') . ': ' . format_string($curso->shortname));
 $PAGE->set_heading(format_string($curso->fullname));
-$PAGE->requires->css(new moodle_url('/local/gestorrea/estilo_gestor.css'));
+$PAGE->requires->css(new moodle_url('/local/gestorrea/estilo_gestor.css', ['v' => get_config('local_gestorrea', 'version')]));
 
 echo $OUTPUT->header();
 
