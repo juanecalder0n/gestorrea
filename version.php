@@ -2,7 +2,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_gestorrea';
-$plugin->version   = 2026092907;
+$plugin->version   = 2026092908;
 $plugin->requires  = 2023042400;
 $plugin->maturity  = MATURITY_BETA;
 $plugin->release   = '1.0';
