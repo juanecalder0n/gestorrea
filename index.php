@@ -38,7 +38,6 @@ if (!local_gestorrea_curso_habilitado($curso)) {
         </div>
 
         <div class="organizar">
-            <span class="icono">▼</span>
             <label for="ordenarPor">Organizar por:</label>
             <select id="ordenarPor">
                 <option value="az">Nombre (A-Z)</option>
@@ -49,7 +48,6 @@ if (!local_gestorrea_curso_habilitado($curso)) {
         </div>
 
         <div class="seleccionarREA">
-            <span class="icono">▼</span>
             <label for="seleccionarREA">Seleccionar REA:</label>
             <select id="seleccionarREA">
                 <option value="todas">Todas las REA</option>
